@@ -1,7 +1,7 @@
     // Write a program to check whether a given string is a palindrome. Ignore spaces and differences between uppercase and lowercase letters.
 #include<stdio.h>
 #include<string.h>
-#include<ctype.h>
+#include<ctype.h>//characters ko direclty func se lower and upper me convert kar sakte hai 
 int main(){
     char str[100];
     printf("enter a string : ");
