@@ -24,6 +24,9 @@ int main(){
             continue;
         }
     };
+    for(int i=0;i<n;i++){
+        printf("%d ",a[i]);
+    }
     printf("The second largest distinct element is: %d", max2);
     return 0;
 }
