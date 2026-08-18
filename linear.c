@@ -23,8 +23,6 @@ int main(){
     }
     //yhe pe taget search hoga 
     int target=arr[size-1];
-     int target = arr[size - 1];
-
     clock_t start, end;
     double time_taken;
 
