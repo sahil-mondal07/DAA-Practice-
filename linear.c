@@ -14,15 +14,16 @@ int linearSearch(int arr[], int size, int target)
     return -1;
 }
 int main(){
-    int size=10000;
-    int arr[10000];
+    int size=100000;
+    int arr[size];
     //yha pe random 10k inputs generate hoga
     srand(time(NULL));
     for(int i=0;i<size;i++){
-        arr[i]=rand()%1000000;
+        arr[i]=rand()%100000;
     }
     //yhe pe taget search hoga 
     int target=arr[size-1];
+
     clock_t start, end;
     double time_taken;
 
