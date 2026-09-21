@@ -6,13 +6,14 @@ int main(){
     printf("enter no. of col : ");
     scanf("%d",&c);
     int mat[r][c];
+    printf("enter the ele : ");
     for(int i = 0;i<r;i++){
         for(int j=0;j<r;j++){
             scanf("%d",&mat[i][j]);
         }
     }
 
-    int a=0
+    int a=0;
     int b=1;
     while(b<r){
         if(mat[a][b]==1){
