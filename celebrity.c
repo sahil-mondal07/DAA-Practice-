@@ -1,4 +1,4 @@
-#inlcude<stdio.h>                   // 0=dont know , 1=knows 
+#include<stdio.h>                   // 0=dont know , 1=knows 
 int main(){
     int r,c;
     printf("enter no. of rows : ");
@@ -37,7 +37,7 @@ int main(){
                 printf("not the celebrity");
                 return 0;
             }
-            if(mat[i][candidate]==0){
+            if(mat[i][candidate]!=1){
                 printf("not the celebrity");
                 return 0;
             }
